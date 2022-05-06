@@ -11,7 +11,6 @@ function App() {
     xl: 'xl-value',
     xxl: 'xxl-value',
   });
-  console.log('responsiveValue', responsiveValue);
 
   const responsiveColor = useBreakpointValue({
     xs: 'red',
