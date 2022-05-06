@@ -18,3 +18,5 @@ const responsiveValue = useBreakpointValue({
 });
 
 ```
+
+![](./images/demo.gif)
