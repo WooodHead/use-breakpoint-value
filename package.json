@@ -1,0 +1,25 @@
+{
+  "name": "use-breakpoint-value",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "link": "npm link && cd example && npm link use-breakpoint-value cd -",
+    "build": "tsc && npm run link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WooodHead/use-breakpoint-value.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WooodHead/use-breakpoint-value/issues"
+  },
+  "homepage": "https://github.com/WooodHead/use-breakpoint-value#readme",
+  "dependencies": {
+    "typescript": "^4.6.4",
+    "use-media-antd-query": "^1.1.0"
+  }
+}
